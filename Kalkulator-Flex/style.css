@@ -1,0 +1,75 @@
+body{
+    height: 100%;
+    margin: 0;
+    background: transparent url('pic2.jpg') fixed no-repeat center center;
+     background-size: cover;
+}
+
+#keyboard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container{
+    width: 325px;
+    height: 0px;
+    margin:0 auto;
+    top: 80px;
+    position: relative;
+    margin: 20px auto;
+    background-color:rgb(0, 0, 0);
+    opacity: 80%;
+}
+
+#calculator{
+    width: 320px;
+    margin:0 auto;
+    top: 10px;
+    position: relative;
+    background-color: black;
+}
+
+#result{
+    height: 120px;
+    background-color: black;
+    border: black;
+    display: flex;
+    flex-direction: column;
+
+}
+#history{
+    height: 30px;
+    font-size: medium;
+    color:white;
+    text-align: right;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#output{
+    height: 90px;
+    font-size: xx-large;
+    color:white;
+    text-align: right;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.operator, .operation, .dif, .equal{
+    background-color: rgb(14, 66, 94);
+}
+
+
+button{
+    width: 76px;
+    height: 79px;
+    margin: 2px;
+    background-color: rgb(12, 12, 12);
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
